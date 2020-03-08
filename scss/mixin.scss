@@ -1,0 +1,11 @@
+@mixin fonts($size, $color, $weight) {
+    font-size: $size;
+    color: $color;
+    font-weight: $weight;
+}
+@mixin space($marg, $padd, $bord, $brrad) {
+    margin: $marg;
+    padding: $padd;
+    border: $bord;
+    border-radius: $brrad;
+}
